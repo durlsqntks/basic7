@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+.All
+{
+    background-color: rgb(160, 153, 153);
+    width: 600px;
+    margin-top: 2200px;
+    position: relative;
+}
+    .All .First
+    {
+        background-color: rgb(255, 0, 0);
+        width:  200px;
+        height: 200px;
+        position:relative; /* relative는 주위에 아무런 영향이 없다. */
+        left: 300px; /* 이동시 position이 있어야 한다는데 에라이 난 잘 모르겠다 */
+    }
+    .All .Second
+    {
+        background-color: rgb(233, 222, 222);
+        width:  200px;
+        height: 200px;
+        position:absolute; /* absolute는 기준을 정해진 곳에 붙으려 한다. */
+        left: 100px;
+        top: 0;
+    }
+    .All .Third
+    {
+        background-color: rgb(30, 5, 255);
+        width:  200px;
+        height: 200px;
+    }
+
+        .fixed
+        {
+            background-color: gray;
+            color: white;
+            position: fixed;
+            top: 100px;
+            right: 10px;
+            padding: 20px;
+        }
